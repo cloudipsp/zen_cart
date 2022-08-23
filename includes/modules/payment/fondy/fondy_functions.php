@@ -57,7 +57,7 @@ function f_createOrderArray( $fData = null, $zcOrderId = null, $timestamp = null
 		'fondy_payment_id'  => $fData['payment_id'],
 		'zc_order_id'   => $fData['payment_id'],
 		'amount'  => $fData['amount'],
-		'amount_fee'    => $fData['fee'],
+		'amount_fee'    => floatval($fData['fee']),
 		'fondy_data'    => serialize( $fData ),
 		'timestamp'     => date( F_FORMAT_DATETIME_DB, $ts ),
 		'status'        => $fData['order_status'],
