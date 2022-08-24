@@ -4,7 +4,7 @@ Fondy ZenCart Module v0.0.1 for Zen Cart 1.3.9 - 1.6
 INTEGRATION:
 
 1. Unzip the module
-- if your different from `admin` - rename module admin folder to your admin folder name
+- if your admin folder name different from `admin` - change module admin folder name
 
 2. Copy and paste the files into root site folder
 - This should NOT overwrite any existing files or folders
